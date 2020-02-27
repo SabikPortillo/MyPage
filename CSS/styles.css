@@ -1,31 +1,50 @@
 h1{
     margin-block-start: 0.3em;
     margin-block-end: 0.3em;
+    font-size: 50px;
+    font-family: 'Noto Sans', serif;
+
     
 }
 p{
     margin-block-start: 0;
     margin-block-end: 0;
+    font-family: 'PT Serif', sans-serif;
 }
 
 body{
     background-color: blue;
     margin: 0em;
+    text-align: center;
 } 
 div{
     background-color: #801336;
 }
 
 .Top-Container{
-    background-color: whitesmoke;
+    padding-top: 80px;
+    background-color: #ee4540;
+    position: relative;
 }
 
 .Middle-Container{
     background-color: whitesmoke;
+    height: 100px;
     
 }
 
 .Bottom-Container{
     background-color: whitesmoke;   
+}
+
+.Low-Cloud{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+.Top-Cloud{
+    position: absolute;
+    right: 30%;
+    top: 8%;
 }
 
