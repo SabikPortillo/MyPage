@@ -60,6 +60,7 @@ hr{
     padding-bottom: 20px;
     background: linear-gradient(#f1f3f4,#cee7f3);
     position: relative;
+    overflow:hidden
 }
 
 .Low-Cloud{
@@ -70,9 +71,9 @@ hr{
 }
 
 .Top-Cloud{
-    /*position: absolute;
-    right: 250px;
-    top: 200px;*/
+    position: absolute;
+    /*right: 250px;*/
+    top: 200px;
     max-width: 10%;
 
     animation-name: "Cloud_Animation";
@@ -83,13 +84,9 @@ hr{
 }
 
 @keyframes Cloud_Animation {
-    from {
-        margin-left: 100%;
-    }
-    
-    to {
-        margin-left: 0%;
-    }
+    0% {right: 200px;}
+    50% {right: 300px;}
+    100% {right: 200px;}
 }
 
 
