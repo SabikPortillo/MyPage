@@ -68,14 +68,41 @@ hr{
     top: 320px;
     max-width: 100px;
 }
+
+.Top-Cloud{
+    /*position: absolute;
+    right: 250px;
+    top: 200px;*/
+    max-width: 10%;
+
+    animation-name: "Cloud_Animation";
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes Cloud_Animation {
+    from {
+        margin-left: 100%;
+        width: 300%; 
+    }
+    
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+
+/*
 .Top-Cloud{
     position: absolute;
     right: 250px;
     top: 200px;
     max-width: 10%;
 }
-
-
+*/
 /************  MIDDLE  ***********/
 .middle-container{
     padding-top: 20px;
