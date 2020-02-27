@@ -78,19 +78,17 @@ hr{
     animation-name: "Cloud_Animation";
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    
 
 }
 
 @keyframes Cloud_Animation {
     from {
         margin-left: 100%;
-        width: 300%; 
     }
     
     to {
-    margin-left: 0%;
-    width: 100%;
+        margin-left: 0%;
     }
 }
 
