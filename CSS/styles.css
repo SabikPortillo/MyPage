@@ -69,32 +69,19 @@ hr{
     left: 300px;
     top: 320px;
     max-width: 100px;
-    animation-name: Low-cloud-animation;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    
     
 }
-@keyframes Low-cloud-animation{
-    0% {left: 300px;}
-    50% {left: 330px;}
-    100% {left: 300px;}
-}
+
 
 .Top-Cloud{
     position: absolute; 
     right: 250px;
     top: 170px;
     max-width: 120px;
-    animation-name: Top-cloud-animation;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    
 }
 
-@keyframes Top-cloud-animation{
-    0% {right: 250px;}
-    50% {right: 300px;}
-    100% {right: 250px;}
-}
 
 /************  MIDDLE  ***********/
 .middle-container{
