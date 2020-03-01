@@ -30,11 +30,16 @@ p{
     margin-block-end: 0;
     font-family: 'PT Serif';
     font-size: 20px;
+    line-height: 2;
 }
 
 a{
     color: #11999E;
+    font-family: 'PT Serif';
+    
+
 }
+
 
 hr{
     border: none;
@@ -60,8 +65,9 @@ hr{
 .Subtitle-h2{
     font-weight: normal;
     line-height: 2;
-    color: #512b58;
-    font-size: 2rem;
+    color: #512b58ce;
+    font-size: 1.7rem;
+    
 }
 
 .Low-Cloud{
@@ -69,8 +75,6 @@ hr{
     left: 300px;
     top: 320px;
     max-width: 100px;
-    
-    
 }
 
 
@@ -93,6 +97,8 @@ hr{
 
 .profile{
     margin: 100px auto 100px auto;
+    width: 50%;
+    margin: auto;
 }
 
 .skills{
@@ -140,19 +146,37 @@ hr{
 .btn{
     box-shadow:inset 0px 1px 0px 0px #5b3761ef;
 	background-color:#512b58;
-	border-radius:6px;
+	border-radius:10px;
 	border:1px solid white;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'Noto Sans', serif;
-	font-size:15px;
+	font-size:20px;
 	font-weight:bold;
 	padding:6px 24px;
-	text-decoration:none;
+    text-decoration:none;
 	margin-top: 20px;
+}
+.btn:hover{
+    background-color:#874892;
+
 }
 
 .footer-link{
     font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-link:hover{
+    color: #512b58;
+ }
+
+.Copy-right{
+    padding-top: 5px;
+    color: rgb(184, 182, 182);
+    font-family: 'Noto Sans', serif;
+    font-size: 16px;
 }
